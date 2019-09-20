@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import Header from "./components/Header.js";
 import WelcomePage from "./components/WelcomePage";
 import CharacterList from "./components/CharacterList";
-import Form from "./components/Form";
+import Form from "./components/searchForm";
 import styled from "styled-components"
 
 const MainStyle = styled.main `

@@ -12,17 +12,17 @@ const StyledSection = styled.section`
 export default function CharacterList(props) {
   // TODO: Add useState to track data from useEffect
 
-  const {characters, setCharacters} = props
+  const {characters, setCharacters, setError} = props
 
   useEffect(() => {
     // TODO: Add API Request here - must run in `useEffect`
     //  Important: verify the 2nd `useEffect` parameter: the dependancies array!
-    axios.get('https://rickandmortyapi.com/character/')
+    axios.get('https://rickandmortyapi.com/api/character/')
     .then(response =>{
       setCharacters(response.data.results)
     })
     .catch(err =>{
-      console.log(err);
+      setError(err.message);
     })
   }, []);
 
