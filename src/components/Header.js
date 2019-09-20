@@ -25,9 +25,6 @@ button {
     text-decoration: none;
     color: black;
   }
-  &:hover {
-    background-color: skyblue;
-  }
 }
 `
 

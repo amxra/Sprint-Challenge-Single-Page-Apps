@@ -1,8 +1,23 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyledSection = styled.section `
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+  img {
+    width: 40vw;
+  }
+`
 
 export default function WelcomePage() {
   return (
-    <section className="welcome-page">
+    <StyledSection className="welcome-page">
       <header>
         <h1>Welcome to the ultimate fan site!</h1>
         <img
@@ -11,6 +26,6 @@ export default function WelcomePage() {
           alt="rick"
         />
       </header>
-    </section>
+    </StyledSection>
   );
 }
