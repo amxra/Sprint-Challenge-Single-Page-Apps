@@ -8,6 +8,7 @@ const StyledSection = styled.section`
   justify-content: space-around;
   flex-wrap: wrap;
   font-family: 'Cute Font', cursive;
+  
 `
 
 export default function CharacterList(props) {

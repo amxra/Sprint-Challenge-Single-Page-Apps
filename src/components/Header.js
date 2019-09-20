@@ -38,6 +38,9 @@ a {
 
   &:hover{
     text-decoration: underline;
+    text-decoration-color: #00FF7F;
+    color: #58CCED;
+    
   }
 }
 `
