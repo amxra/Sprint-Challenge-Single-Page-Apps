@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+- Client side routing doesn't depend on a server to work. JavaScrip handles routing,this inceases the speed of an application.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
