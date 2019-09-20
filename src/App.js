@@ -7,7 +7,7 @@ import Form from "./components/searchForm";
 import styled from "styled-components"
 
 const MainStyle = styled.main `
-background-color: powderblue;
+// background-color: powderblue;
 border-radius: 2rem;
 padding: 2rem;
 

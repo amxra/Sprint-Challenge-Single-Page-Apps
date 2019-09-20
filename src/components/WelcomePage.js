@@ -7,7 +7,6 @@ const StyledSection = styled.section `
   margin-left: 4rem;
   align-items: center;
   text-align: center;
-  font-family: 'Cute Font', cursive;
   h1 {
     font-size: 2rem;
   }

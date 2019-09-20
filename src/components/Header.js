@@ -11,7 +11,9 @@ padding: 0 2rem;
 
 h1{
   font-family: 'Cute Font', cursive;
-  text-shadow: 0 0 20px #00FF7F;
+  
+  text-shadow: -1px 0 #00FF7F, 0 1px #00FF7F, 1px 0 #00FF7F, 0 -1px #00FF7F;
+  color: #58CCED;
 }
 
 
