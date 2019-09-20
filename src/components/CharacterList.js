@@ -7,6 +7,8 @@ const StyledSection = styled.section`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-family: 'Cute Font', cursive;
+  
 `
 
 export default function CharacterList(props) {
@@ -22,7 +24,7 @@ export default function CharacterList(props) {
       setCharacters(response.data.results)
     })
     .catch(err =>{
-      setError(err.message);
+      setError(err.message)
     })
   }, []);
 

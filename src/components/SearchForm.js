@@ -6,19 +6,34 @@ const StyledSection = styled.section `
 
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     text-align: center;
     color: grey;
     margin-top: 2%;
-    align-items: center;
+    align-items: flex-end;
+    font-family: 'Cute Font', cursive;
+
+    div{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    input{
+        width: 70%;
+        text-align: centre;
+    }
 
 
     button{
       
         margin-top: 0.5rem;
-        background-color: #BEBEBE;
-        width 20%;
+        background-color: #00FF7F;
+        width 30%;
         color: gray;
+        padding: 0.5rem;
     }
 
 `
@@ -36,10 +51,12 @@ function Find (props) {
                 return (
                 <Form>
                     <StyledSection>
-                    <label>Search</label>
-                    <Field name='name' type='text' placeholder='Enter Name Here' />
+                     <div>
+                    <label>Find Character</label>
+                    <Field name='name' type='text' placeholder='Search Name' />
                     <ErrorMessage name='name' component='div' />
                     <button type="submit">Submit</button>
+                    </div>
                     </StyledSection>
                 </Form>
                 )

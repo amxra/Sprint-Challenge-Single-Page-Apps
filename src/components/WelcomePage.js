@@ -9,6 +9,8 @@ const StyledSection = styled.section `
   text-align: center;
   h1 {
     font-size: 2rem;
+    color: gray;
+    font-family: 'Cute Font', cursive;
   }
   img {
     width: 40vw;
