@@ -5,6 +5,7 @@ const StyledDiv = styled.main`
   border-radius: 15px;
   width: 30%;
   text-align: center;
+  font-family: 'Cute Font', cursive;
   
   img {
     width: 100%;

@@ -9,6 +9,11 @@ align-items: center;
 font-size: 2rem;
 padding: 0 2rem;
 
+h1{
+  font-family: 'Cute Font', cursive;
+  text-shadow: 0 0 20px #00FF7F;
+}
+
 
 div {
   width: 100%;
@@ -20,6 +25,7 @@ div {
  .links{
    display: flex;
    justify-content: flex-end;
+   font-family: 'Cute Font', cursive;
  }
 a {
   font-size: 1.5rem;
