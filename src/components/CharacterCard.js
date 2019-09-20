@@ -21,8 +21,10 @@ export default function CharacterCard(props) {
       <img src ={character.image} alt = {character.name}/>
       <p>Gender : {character.gender}</p>
       <p>Origin : {character.origin.name}</p>
+      <p>Location : {character.location.name}</p>
       <p>Specie : {character.species}</p>
       <p>Status : {character.status}</p>
+      <p>Created : {character.created}</p>
 
 
     </StyledDiv>
