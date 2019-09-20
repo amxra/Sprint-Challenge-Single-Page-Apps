@@ -3,8 +3,16 @@ import { Route } from "react-router-dom";
 import Header from "./components/Header.js";
 import WelcomePage from "./components/WelcomePage";
 import CharacterList from "./components/CharacterList";
-import axios from "axios";
 import Form from "./components/Form";
+import styled from "styled-components"
+
+const MainStyle = styled.main `
+background-color: powderblue;
+border-radius: 2rem;
+padding: 2rem;
+
+`
+
 
 
 export default function App() {
@@ -24,7 +32,7 @@ export default function App() {
   const validationSchema = {a:'boy'};
 
   return (
-    <main>
+    <MainStyle>
       <Header />
       <Route exact path='/' render={props => <WelcomePage {...props} />} />
       <Route path='/characters' 
@@ -39,6 +47,6 @@ export default function App() {
         characters={characters} 
         setCharacters={setCharacters} />}
       />
-    </main>
+    </MainStyle>
   );
 }
