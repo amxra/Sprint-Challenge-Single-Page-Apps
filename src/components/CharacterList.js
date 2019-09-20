@@ -21,7 +21,11 @@ export default function CharacterList(props) {
 
   return (
     <section className="character-list">
-      <h2>TODO: `array.map()` over your state here!</h2>
+      {characters.map(chr => (
+        <CharacterCard 
+        key ={chr.id}
+        character ={chr}/>
+      ))}
     </section>
   );
 }
