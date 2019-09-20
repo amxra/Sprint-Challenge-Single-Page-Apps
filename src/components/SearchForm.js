@@ -18,7 +18,7 @@ const StyledSection = styled.section `
         margin-top: 0.5rem;
         background-color: #BEBEBE;
         width 20%;
-
+        color: gray;
     }
 
 `
